@@ -1,0 +1,132 @@
+/*!
+ * Ext JS Library 3.1.0
+ * Copyright(c) 2006-2009 Ext JS, LLC
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+
+
+.doc_details {
+	font-size: 1em;
+	width: 344;
+	padding: 3px;
+}
+
+.doc_details table tr td {
+	padding: 3px;
+}
+
+.doc_details .version_cmds {
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.doc_details a {
+	color:#5EA1C5;
+	text-decoration:none;
+}
+
+.doc_details a:hover {
+	color:#cccccc;
+	text-decoration:none;
+}
+
+.doc_details a:visited {
+	color:#5EA1C5;
+	text-decoration:none;
+}
+
+.x-column-tree .x-panel-header {
+	padding: 5px 5px 0px 0px;
+	border-bottom-width: 0px;
+}
+
+.x-column-tree .x-panel-header .x-panel-header-text {
+	margin-left: 3px
+}
+
+.x-column-tree .x-tree-node {
+    zoom:1;
+}
+.x-column-tree .x-tree-node-el {
+    /*border-bottom:1px solid #eee; borders? */
+    zoom:1;
+}
+.x-column-tree .x-tree-selected {
+    background: #d9e8fb;
+}
+.x-column-tree  .x-tree-node a {
+    line-height:18px;
+    vertical-align:middle;
+}
+.x-column-tree  .x-tree-node a span{
+	
+}
+.x-column-tree  .x-tree-node .x-tree-selected a span{
+	background:transparent;
+	color:#000;
+}
+.x-tree-col {
+    float:left;
+    overflow:hidden;
+    padding:0 1px;
+    zoom:1;
+}
+
+.x-tree-col-text, .x-tree-hd-text {
+    color:#000;
+    overflow:hidden;
+	text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    padding:3px 3px 3px 5px;
+    white-space: nowrap;
+    font:normal 11px arial, tahoma, helvetica, sans-serif;
+}
+
+.x-tree-headers {
+	margin-top: 7px;
+	background: #f9f9f9 url(/img/extjs/default/grid/grid3-hrow.gif) repeat-x 0 bottom;
+	cursor:default;
+    zoom:1;
+}
+
+.x-tree-hd {
+    float:left;
+    overflow:hidden;
+    border-left:1px solid #eee;
+    border-right:1px solid #d0d0d0;
+}
+.x-form-file-wrap {
+	position: relative;
+	height: 22px;
+}
+
+.x-form-file-wrap .x-form-file {
+	position: absolute;
+	right: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+	height: 22px;
+}
+
+.x-form-file-wrap .x-form-file-btn {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+
+.x-form-file-wrap .x-form-file-text {
+	position: absolute;
+	left: 0;
+	z-index: 3;
+	color: #777;
+}
+
+.x-panel-body .middle {
+	text-align: center;
+	height: 100%;
+	padding-top: 15px;
+}
